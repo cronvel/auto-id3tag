@@ -1,0 +1,52 @@
+{
+  "name": "auto-id3tag",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Patch ID3 tags from file's name and directories and/or rename MP3 files from ID3 tags, acting as a front-end for the 'id3v2' Linux command.",
+  "main": "lib/AutoID3Tag.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "auto-id3tag": "./bin/auto-id3tag.js"
+  },
+  "dependencies": {
+    "seventh": "^0.9.4",
+    "string-kit": "^0.19.3",
+    "utterminal": "^0.7.3"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/auto-id3tag.git"
+  },
+  "keywords": [
+    "CLI",
+    "ID3v2",
+    "tool"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/auto-id3tag/issues"
+  },
+  "config": {
+    "tea-time": {
+      "coverDir": [
+        "lib"
+      ]
+    }
+  },
+  "copyright": {
+    "title": "Auto ID3Tag",
+    "years": [
+      2025
+    ],
+    "owner": "Cédric Ronvel"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  }
+}
