@@ -1,6 +1,6 @@
 {
   "name": "auto-id3tag",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Patch ID3 tags from file's name and directories and/or rename MP3 files from ID3 tags, acting as a front-end for the 'id3v2' Linux command.",
   "main": "lib/AutoID3Tag.js",
   "directories": {
